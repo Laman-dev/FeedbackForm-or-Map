@@ -1,0 +1,64 @@
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ================Start Contact-Section==================== */
+
+
+
+.contact-section{
+    height: 350px ;
+    background-color: black;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-section-left{
+    width: 500px;
+    height: 350px;
+    color: white;
+}
+
+.contact-section-left input{
+    width: 410px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background: none;
+    margin-top: 15px;
+    color: white;
+}
+.contact-section-left textarea{
+    background: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-top: 15px;
+    color: white;
+}
+.contact-section-left button{
+    width: 90px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    margin: 5px;
+}
+.contact-section-right{
+    width: 500px;
+    height: 350px;
+    border: 3px solid wheat;
+    
+}
+
+/* ===============End Contact-Section===================== */
